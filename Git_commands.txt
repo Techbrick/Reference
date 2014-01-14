@@ -1,0 +1,5 @@
+git add [folder or file name/path]           --- add new folder or file
+git commit -a                                --- commit all changes (will be required to comment on changes)
+git commit [folder or file name/path]        --- only commit changes to a specific file of folder (will be required to comment on changes)
+git push                                     --- push changes to and sync online repository
+git pull                                     --- pull changes/updates from online repository and sync with local repository 
