@@ -1,3 +1,3 @@
 Test_Robot_Code
 ===============
-Tutorial, refernce and resouce files. Use, share, and edit how ever you want.
+Tutorial, reference and resource files. Use, share, and edit how ever you want.
