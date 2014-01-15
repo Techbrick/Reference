@@ -1,0 +1,27 @@
+If your useing a Techbrick computer, skip to Step 4. If not, follow these step exactly.
+1. Create GitHub Account at "https://github.com/".
+2. Email me (michelfrancisb@gmail.com) with your username to be added as a collaborator.
+3. Download and Install GitHub from "http://windows.github.com/".
+4. Click the "GitHub" icon on the desktop and wait for the program to load.
+5. Click "Tools">"Options". If someone is signed in DO NOT USE THEIR ACCOUNT! Click "LOG OUT".
+6. Click "Add Account" and sign in with your GitHub email or username and password.
+7. Log in to your account at "https://github.com/login" and navagate to "https://github.com/Techbrick". 
+8. Choose the repository you would like to work on, click "Fork" at the to right, and choose choose your username from the pop-up. (Should be the box on the left)
+9. You should see a screen that says "Forking repository". Wait for the screen to refresh and show a page with your username and the name of the repository you forked seperated by a slash.
+10. Open your GitHub GUI (program) by clicking the GitHub icon on your desktop.
+11. Click your username on the left under "GitHub" and click "Clone" next to the repository you would like to work with. (Should be the same one you just forked)
+12. Click "repositories" at the left under "Local" and click the small push-pin icon next to the repository you selected. (Won't appear untill you mouse over the repository name)
+13. Click "repositories" on the left then right click the repository you would like to edit and select "Open in explorer".
+14. Use the files as you would any others. (Keep the GitHub program open)
+15. When you are done, go back to the GitHub program and double click the repository you were editing.
+16. Use the text boxes on the left to create a Summary and Description of any changes made. IMPORTANT!: Be as descriptive as possible! While changes are logged, explaining them in your own words is always best.
+17. IMPORTANT!: Click "Commit change" then "Sync" and wait to all changes to be 'sunk'.
+*To sync changes you made and get changes made to the main repository: (Only do these steps if you know your edits work! Best to consult the rest of the team 'first!' in case your changes have been superceded.)
+18. Log in to your account at "https://github.com/login" and select the repository you edited under "Your repositories" at the right.
+19. Click the small green box on the left (tooltip "Compare & review" appears when you mouse over it), then select "View Pull Request" and select each of the tabs at the top to reveiw your changes.
+20. If no conflicts are found, click "Merge pull request" on the "Conversation" tab, descride your changes IN DETAIL! in the text box and click "Confirm merge".
+
+---------------------------------------------------
+13. (Techbrick computers only) Click the left arrow at the top left of the window. Click "Tools">"Options">"LOG OUT".
+
+Make sure to sync and LOG OUT of GitHub (Tools>Options>LOG OUT) when you are done editing on a shared or Techbrick computer to avoid mis-labeled or tamptered-with code! 
