@@ -1,26 +1,19 @@
 #include "WPILib.h"
 
-/**
- * This is a demo program showing the use of the RobotBase class.
- * The SimpleRobot class is the base of a robot application that will automatically call your
- * Autonomous and OperatorControl methods at the right time as controlled by the switches on
- * the driver station or the field controls.
- */ 
+
 class RobotDemo : public SimpleRobot
 {
 	RobotDrive myRobot; // robot drive system
 	Joystick stick; // only joystick
 	Encoder digEncoder;
-	//Ultrasonic ultrasonic1;
 	AnalogChannel ultra;
 	Servo servo;
 
 public:
-	RobotDemo(void):
+	RobotDemo(void):		//Init in same order as listed above
 		myRobot(8,1, 1, 1),
 		stick(1),
 		digEncoder(13, 14),
-		//ultrasonic1(11, 11) //Init in same order declared above
 		ultra(1, 1),
 		servo(1, 2)
 	{											
@@ -38,10 +31,7 @@ public:
 		myRobot.Drive(0.0, 0.0); 	// stop robot
 	}
 
-	/*
-	  Runs the motors with arcade steering. 
-	 */
-	
+
 	void OperatorControl(void)
 	{
 		myRobot.SetSafetyEnabled(true);
@@ -55,8 +45,6 @@ public:
 		{
 			//myRobot.TankDrive(10,10);
 			SmartDashboard::PutNumber("Digital Encoder RPM", digEncoder.GetRate()*ppsTOrpm);
-			//SmartDashboard::PutNumber("Digital Encoder Raw", digEncoder.GetRaw());
-			//SmartDashboard::PutNumber("Ultrasonic Distance", ultrasonic1.GetRangeInches());
 			SmartDashboard::PutNumber("Ultrasonic Distance cm", (double) ultra.GetAverageVoltage()*VoltsToIn);
 			/*if (stick.GetRawButton(1)) {
 				servo.Set(0.0);
