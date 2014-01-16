@@ -1,0 +1,7 @@
+Michel, we didn't actually try pin 2 (and the connected wheel) to make sure it worked when we were testing.
+Test either the wheel on pin 2, or test the servo on pin 8 (the wheel that we know works).
+I didn't email this to you because I figured you'd be more likely to see this first.  I won't be at FRC
+tomorrow.
+
+--
+Kade
