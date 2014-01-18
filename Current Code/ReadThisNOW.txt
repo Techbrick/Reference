@@ -1,3 +1,0 @@
-Kaden, I see my email much more often than this but thanks...Larry figured it out. We had to jump the two PWM pins next to the where we plugged in the servo...also, we put mecanum code on the bot but the controls are all screwy, so Thomas and I have to work on the tomorrow.
-P.S. For future reference, anything posted to GitHub is completely and totally public so obviously don't say some things.
-Also, We need to figure out a way to connect to two networks at once (Internet and Robot).
