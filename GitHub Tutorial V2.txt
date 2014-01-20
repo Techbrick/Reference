@@ -25,6 +25,6 @@ IMPORTANT! If you would like to do anything at all with the code besides just vi
 20. If no conflicts are found, click "Merge pull request" on the "Conversation" tab, descride your changes IN DETAIL! in the text box and click "Confirm merge".
 21. (Techbrick and Shared computers only) Click the left arrow at the top left of the window. Click "Tools">"Options">"LOG OUT".
 
-Make sure to sync and LOG OUT of GitHub (Tools>Options>LOG OUT) when you are done editing on a shared or Techbrick computer to avoid mis-labeled or tampered-with code! 
+Make sure to SYNC and LOG OUT of GitHub (Tools>Options>LOG OUT) when you are done editing on a shared or Techbrick computer to avoid mis-labeled or tampered-with code! 
 
 If you have any problems email me at michelfrancisb@gmail.com.
