@@ -1,0 +1,46 @@
+Each time you want to use a repo that you have cloned onto your computer (Test_Robot_Code, for instance), follow these steps.
+
+1. Open the Git Shell. (On Windows, this is a shortcut on the desktop.  On Linux, open the terminal.)
+
+2. Navigate to particular repository's folder in the shell.
+   Type, then hit enter:
+       cd Test_Robot_Code
+   This will essential open the Test_Robot_Code folder in your Git Shell.
+
+3. Update your clone - make sure that the files on your computer match the online repo's files.
+   Type, then hit enter:
+       git pull
+   This will "pull" the current version of files from github.com down to your clone.
+
+4. Edit any files you want to edit.
+   If you create a new file, then use this command to tell git that it was created:
+       git add FILENAME
+   where FILENAME is the file's name.
+
+5. Commit the files.
+   This tells git that you are 'committing' the changes to the files, but it doesn't update the online repository yet!
+   It also allows git to keep a history of changes, so that we can revert to _any_ version of a file.
+   Use
+       git commit FILENAME
+   to commit a file.
+   Use
+       git commit -a
+   to commit ALL of the files in the repository.
+   (Note that this will change the description of the latest change that appears for files for ALL the files)
+
+6. Describe your changes.
+   A text file will appear - enter a description of your changes, save the file, and exit the editor.
+   A good description might be:
+       Added new tutorials for using GitHub with the command line and seperated tutorials into folders.
+
+7. Push your clone to the repository.
+   Pushing your clone (the files on your computer) to the online repository will update the online repository to your changes.
+   Note that if anyone has changed the repository since you updated your clone, YOU WILL OVERWRITE THEIR CHANGES!
+   Make sure that you've updated recently to ensure that you don't do that.
+   If you update after changing files, you will lose those files, so if you need to, backup your changes, update, and replace the changed files.
+   Use the command
+       git push
+   to push to the repository.
+
+
+The above steps will successfully update your repository - MAKE SURE YOU READ ALL STEPS CAREFULLY, please.
