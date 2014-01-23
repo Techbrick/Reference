@@ -1,0 +1,9 @@
+git add [folder or file name/path]                            --- add new folder or file
+git clone git@github.com:USERNAME/REPONAME.git                --- clone USERNAME's repository, REPONAME, to your computer in current directory
+git commit -a                                                 --- commit all changes (will be required to comment on changes)
+git commit [folder or file name/path]                         --- only commit changes to a specific file of folder (will be required to comment on changes)
+git fetch upstream                                            --- these two commands update a forked repository.
+  git rebase upstream/master                                        don't actually indent second command - that was just to show that both are one entry!
+git pull                                                      --- pull changes/updates from online repository and sync with local repository
+git push                                                      --- push changes to and sync online repository
+git remote add upstream git@github.com:USERNAME/REPONAME.git  --- setup clone of forked repo (use once per clone of forked repos)

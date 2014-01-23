@@ -1,0 +1,59 @@
+Using a forked repository is slightly different than using a cloned repository - read the following steps carefully.
+Remember that you have a fork of a repository, and a clone of the fork on your computer.
+
+These steps should be used on MainWorkingCode, but probably not on Test_Robot_Code (unless you forked it instead of cloning it)
+The steps in Forking_Repos.txt must be followed prior to following these steps.
+
+ALWAYS complete steps 1 and 2 prior to editing files - if the main repo was changed in between the time you last updated
+and when you submit a pull request (see step 6) it will make it hard for a owner of the repo (Michel, Thomas, or Kaden)
+to merge your fork into the main repo (update the main repository to include your changes). They would have to do it by
+hand...
+
+1. Update your fork.
+   This will update your forked repository online so that it matches the repo you forked from.
+   Use
+       git fetch upstream
+   to update your fork, and
+       git rebase upstream/master
+   to (?) clean up your fork's git history.
+   While I'm not exactly certain that's what rebase does, it IS necessary! (I think. :) )
+
+2. Update your clone.
+   Even though I believe the git fetch upstream in step 1 will update your clone, I haven't tested this.
+   So, you should definitely check that your clone is updated with
+       git pull
+   which pulls the files off of the online fork of the repository into your clone's files.
+
+3. Edit files.
+   If you create a new file, then use this command to tell git that it was created:
+       git add FILENAME
+   where FILENAME is the file's name.
+
+4. Commit the files.
+   This tells git that you are 'committing' the changes to the files, but it doesn't update the online repository yet!
+   It also allows git to keep a history of changes, so that we can revert to _any_ version of a file.
+   Use
+       git commit FILENAME
+   to commit a file.
+   Use
+       git commit -a
+   to commit ALL of the files in the repository.
+   (Note that this will change the description of the latest change that appears for files for ALL the files)
+
+5. Push the changes.
+   Use
+       git push
+   to push the changes that you've committed in your clone up to your fork.
+   This will make the files in your fork match the files in your clone.
+
+6. Submit a pull request.
+   Submitting a pull request essentially means that you request the main repository (the one you forked from) to pull from your repository
+   and update the main repo to include your changes.  Usually this can be done automatically by GitHub, but see the note at the top of this file.
+   This cannot be done on the command line without installing third-party tools.
+   Navigate to your fork of the repository on GitHub.com (a link should be on your userpage).
+   Click on the green button near the top on the left hand side. (When you hover over it, it should say "Compare & Review.")
+   Click on "Submit Pull Request," and follow the steps as indicated.
+   If you are not a owner of the Techbrick GitHub page (Thomas, Michel, and Kaden are owners), then you cannot merge
+   the fork - ask one of the owners to do it.
+
+That's all! If you have any questions, ask Michel or Kaden.

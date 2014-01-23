@@ -1,0 +1,24 @@
+Follow these 4 steps to fork a repository (use these steps for MainWorkingCode, but just clone Test_Robot_Code):
+
+1. Navigate to the repo on github.com and click Fork in the right hand upper corner and select your own username.
+
+
+2. Open the Git Shell (for Windows - in Linux just open the terminal) and type:
+	git clone git@github.com:USERNAME/REPONAME.git
+   and hit enter, where USERNAME and REPONAME are replaced by your username and the repository's name (MainWorkingCode in this case).
+
+   This clones your fork of the repository down to your computer (gives you a copy of all of the files on your computer).
+
+
+3. Next, type:
+        cd REPONAME
+    and hit enter, where REPONAME is replaced with MainWorkingCode again.
+
+   cd changes directory, or basically opens the folder MainWorkingCode where the repos' files are stored.
+
+
+4. Now, enter:
+        git remote add upstream git@github.com:ORIGUSER/REPONAME.git
+   and hit enter, where ORIGUSER is the user who's repository you forked and REPONAME is MainWorkingCode again.
+   
+   This tells git where you forked the repository from.
