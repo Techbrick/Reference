@@ -1,3 +1,6 @@
+#include <cmath>
+
+
 #include "WPILib.h"
 
 /**
@@ -68,7 +71,7 @@ public:
 			
 			myRobot.MecanumDrive_Cartesian(stick.GetX(), stick.GetY(), 0);
 			
-			SmartDashboard::PutNumber("Digital Encoder RPM", abs(digEncoder.GetRate()*ppsTOrpm));
+			SmartDashboard::PutNumber("Digital Encoder RPM", std::abs(digEncoder.GetRate()*ppsTOrpm));
 			SmartDashboard::PutNumber("Ultrasonic Distance inch", (double) ultra.GetAverageVoltage()*VoltsPerInch);
 			SmartDashboard::PutNumber("Ultrasonic Voltage", (double) ultra.GetAverageVoltage());
 
@@ -130,15 +133,6 @@ public:
 	 */
 	void Test() {
 		
-	}
-	
-	
-	float abs(float num){
-		if (num < 0) {
-			return (-num);
-		} else {
-			return (num);
-		}
 	}
 };
 
