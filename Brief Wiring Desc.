@@ -1,0 +1,23 @@
+Below is a list of ports and what components are plugged into them:
+
+Sidecar:
+	PWM: Motors (Victors, Jaguars, Talons)
+	Relay: Spikes
+	Digital I/O: Digital Sensors (Light Sensors, Limit Switches
+	RSL: Robot Signal Light
+	
+CRio: 
+	Solenoid Breakout: Solenoids
+	Analogue Breakout: 
+	Thrid Module: Sidecar
+	
+Power Distribution Board: 
+	5V Built-in: Robot Radio (D-Link Router)
+	12V Built-in: Wago to Sidecar
+	40A MAX: Motor Controllers, Relays
+	30A MAX: DC/DC Convterters, Sensors Requiring Seperate Power
+	
+DC/DC Converter:
+	Camera
+	Light (for Camera)
+
