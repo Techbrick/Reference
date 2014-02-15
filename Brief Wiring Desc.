@@ -3,12 +3,12 @@ Below is a list of ports and what components are plugged into them:
 Sidecar:
 	PWM: Motors (Victors, Jaguars, Talons)
 	Relay: Spikes
-	Digital I/O: Digital Sensors (Light Sensors, Limit Switches
+	Digital I/O: Digital Sensors (Light Sensors, Limit Switches, Digital Encoders (for angle detection))
 	RSL: Robot Signal Light
 	
 CRio: 
 	Solenoid Breakout: Solenoids
-	Analog Breakout: 
+	Analog Breakout: Analog Sensors (Potentiometer, Current Sensors, Ultrasonic)
 	Thrid Module: Sidecar
 	
 Power Distribution Board: 
