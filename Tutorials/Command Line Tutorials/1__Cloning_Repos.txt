@@ -1,19 +1,11 @@
-Follow these 2 steps to clone a repo (use for Test_Robot_Code, but not for MainWorkingCode):
+Here's how to clone a repo (i.e. download a local copy):
 
 1. Open the Git Shell. (On Windows, this is a shortcut on the desktop.  On Linux, open the terminal and navigate to your git folder.)
-   Type the following code, and then hit enter:
-        git clone git@github.com:USERNAME/REPONAME.git
-   where USERNAME is Techbrick and REPONAME is Test_Robot_Code (in this case).
 
-   This will clone the repository onto your computer - basically, it downloads a copy of the files onto your computer.
+2. Type the following command, and then hit enter:
+     git clone https://github.com:USERNAME/REPONAME.git
+   where USERNAME is Techbrick and REPONAME is the name of the repo ("RecycleRush" for example).
 
+This clones the repository onto your computer.  It will make a new directory for the repository, so you don't have to make one in advance.
 
-2. Next, type:
-        cd REPONAME
-   
-   and press enter, where REPONAME is Test_Robot_Code again.
-
-   This will change directories (cd), or open the folder where the Test_Robot_Code files are held.
-
-
-Now you can start editing the files! When you are done, and want to submit the changes, read Using_Cloned_Repos.txt
+sNow you can start editing the files! When you are done, and want to submit the changes, read Using_Cloned_Repos.txt
