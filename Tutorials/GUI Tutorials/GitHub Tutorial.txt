@@ -13,4 +13,4 @@ If your useing a Techbrick computer, skip to Step 4. If not, follow these step e
 12. IMPORTANT!: Click "Sync" and wait to all changes to be 'sunk'.
 13. (Techbrick computers only) Click the left arrow at the top left of the window. Click "Tools">"Options">"LOG OUT".
 
-Make sure to sync and LOG OUT of GitHub (Tools>Options>LOG OUT) when you are done editing on a shared or Techbrick computer to avoid mis-labeled or tamptered-with code! 
+Make sure to sync and LOG OUT of GitHub (Tools>Options>LOG OUT) when you are done editing on a shared or Techbrick computer to avoid mis-labeled or tampered-with code! 
