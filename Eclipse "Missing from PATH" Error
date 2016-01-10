@@ -1,0 +1,19 @@
+Download MinGW:    http://www.mingw.org/category/wiki/download
+In Eclipse:
+  windows >> preferences >> c/c++ >> build >> environment
+    Add... (or edit if there is already something called PATH there)
+    Name: PATH
+    Value: C:\MinGW\bin;C:\frc
+      "where C:\MinGW\bin" and "C:\frc" are the actual locations of the folders on your computer
+    Fill in the radio box "Append variables to native environment"
+    Press "Apply" and then "OK"
+  Project >> index >> rebuild index
+  
+If the errors are still persisting:
+  In Eclipse:
+    Project >> Properties >> C\C++ General >> Preprocessor Include Paths, Macros, etc. >> Providers >> check "CDT GCC Built-in Compiler Settings" and uncheck "Use global provider shared between projects"
+
+If the PATH errors still persist after that:
+  Repeat lines 3-10, adding to the value whatever is causing the error
+  It's possible that the folder in your computer is missing the specified file, or it is somewhere else, so find/download the file and add it in the PATH that eclipse says is missing.
+  
