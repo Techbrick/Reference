@@ -7,7 +7,7 @@ In Eclipse:
       "where C:\MinGW\bin" and "C:\frc" are the actual locations of the folders on your computer
     Select the radio box "Append variables to native environment"
     Press "Apply" and then "OK"
-  Project >> index >> rebuild index
+  Project >> Index >> Rebuild Index
   
 If the errors are still persisting:
   In Eclipse:
