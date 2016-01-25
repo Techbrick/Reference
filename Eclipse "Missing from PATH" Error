@@ -4,7 +4,7 @@ In Eclipse:
     Add... (or edit if there is already something called PATH there)
     Name: PATH
     Value: C:\MinGW\bin;C:\frc
-      where "C:\MinGW\bin" and "C:\frc" are the actual locations of the folders on your computer
+      where "C:\MinGW\bin" and "C:\frc\bin" are the actual locations of the folders on your computer
     Select the radio box "Append variables to native environment"
     Press "Apply" and then "OK"
   Project >> Index >> Rebuild Index
