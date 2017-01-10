@@ -1,0 +1,21 @@
+1. Right click on the project
+2. Click on properties
+3. C/C++ General
+4. Libraries
+5. "Add..."
+6. navx_frc_cpp
+7. "OK"
+8. Put it to the top of the list
+9. C/C++ Build
+10. Settings
+11. Cross G++ Linker -> Libraries
+12. Library Search Path (-L)
+13. "Add..."
+14. $HOME/navx-mxp/cpp/lib
+15. "OK"
+16. Cross G++ Compiler
+17. Includes
+18. Include Paths(-I)
+19. "Add..."
+20. $HOME/navx-mxp/cpp/include
+21. "OK"
