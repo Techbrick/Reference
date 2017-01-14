@@ -12,10 +12,12 @@
 12. Library Search Path (-L)
 13. "Add..."
 14. $HOME/navx-mxp/cpp/lib
-15. "OK"
-16. Cross G++ Compiler
-17. Includes
-18. Include Paths(-I)
-19. "Add..."
-20. $HOME/navx-mxp/cpp/include
-21. "OK"
+15. Put to bottom of the list
+16. "OK"
+17. Cross G++ Compiler
+18. Includes
+19. Include Paths(-I)
+20. "Add..."
+21. $HOME/navx-mxp/cpp/include
+22. "OK"
+23. Put to top of the list
